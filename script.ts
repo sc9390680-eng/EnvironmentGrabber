@@ -11,31 +11,31 @@ import { existsSync } from 'https://deno.land/std@0.196.0/fs/mod.ts'
 //! ------ YOU CHANGE ------
 
 /** The author of the environment. */
-const AUTHOR = `Swifter`
+const AUTHOR = `Zyxi`
 /** What you want to name the environment. */
-const NAME = `Spells - Chrysalis`
+const NAME = `Whisper Environment`
 /** The version of the environment. (not game version) */
-const VERSION = '0.0.1'
+const VERSION = '2.2.0'
 /** Describe the environment. */
-const DESCRIPTION = `https://beatsaver.com/maps/35a0b`
+const DESCRIPTION = `https://beatsaver.com/maps/20063`
 
 /** Difficulty in the map to take the environment from. */
-const INPUT_DIFFICULTY: rm.DIFFNAME = 'ExpertPlusStandard'
+const INPUT_DIFFICULTY: rm.DIFFNAME = 'NormalStandard'
 /** The directory of the map to take from. */
 const PROJECT_DIR =
-    `F:/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/Spells`
+    `C:\Users\scoll\BSManager\BSInstances\1.29.1\Beat Saber_Data\CustomLevels\20063 (Kayak - Zyxi & Lonely)`
 /**
     Where to export the environment to.
     Environments are picked up by the game in "[your beat saber directory]/UserData/Chroma/Environments/"
 */
 const EXPORT_LOCATION =
-    'F:/Steam/steamapps/common/Beat Saber/UserData/Chroma/Environments'
+    'C:\Users\scoll\BSManager\BSInstances\1.29.1\UserData\Chroma\Environments'
 
 /**
     Time to sample the environment at.
     Can be expressed as a single number for the beat or a timestamp (such as '0:00')
 */
-const SAMPLE_TIME: Timestamp = '3:06'
+const SAMPLE_TIME: Timestamp = '1:00'
 
 /** Whether to force static lights in the environment (use only custom initializing events) */
 const FORCE_STATIC_LIGHTS = true
